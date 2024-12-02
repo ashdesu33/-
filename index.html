@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+
+  <body>
+    <button id="sound-button" >Start Sound</button>
+    <canvas id="ditherCanvas"></canvas>
+    <div class="data">
+    <div class = num> X: <span id="x">0</span> m/s²</div> 
+    <div class = num> Y: <span id="y">0</span> m/s²</div> 
+    <div class = num>  Z: <span id="z">0</span> m/s² </div> 
+    </div>
+    <div id="note-display"></div>
+  </body>
+  <script src ="script/network.js"></script>
+  <script src = "script/animation.js"></script>
+  <script src="http://unpkg.com/tone"></script>
+  <!-- <script src="script/wordTosound.js"></script> -->
+  <script src="script/sound_notext.js"></script>
+</html>

@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'Elm Mono';
+    src: url('font/Elm-Mono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+canvas{
+    display: block;
+    position:absolute;
+    top:0;
+    z-index: -2;
+}
+.data{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    
+    display: inline-flex;
+    width:100%;
+    align-content: space-between;
+}
+.num{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#note-display{
+    font-family: 'Elm Mono';
+    font-size: 15px;
+    position: absolute;
+    top:50%;
+    left:30%;
+}
+#sound-button {
+    position: absolute;
+    width:95%;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background: #d7d4ff;
+    color: black;
+    font-size: 16px;
+    border: solid;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+  }
+  #sound-button:hover {
+    background: #000000;
+    color:white;
+  }
+  body{
+    background-color: #fffdc3;
+  }
